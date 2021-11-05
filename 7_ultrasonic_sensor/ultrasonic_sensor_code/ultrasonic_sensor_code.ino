@@ -25,7 +25,7 @@ void loop() {
   lcd.print(dis);
   dis=dis*0.343;
   idis=dis;
-  if(idis==0)
+  if(idis<=10)
   {
     digitalWrite(ledg,LOW);
     digitalWrite(ledr,HIGH);
