@@ -2,7 +2,7 @@
 void setup(){
   pinMode(2,OUTPUT);
   Serial.begin(115200);
-  Serial.println("Pankaj Singh Shah \n 190BTCCSE024");
+  Serial.print("Pankaj_Singh_Shah\n190BTCCSE024\n");
 }
 void loop(){
   digitalWrite(2,HIGH);
