@@ -1,10 +1,22 @@
+int l1=2;
+int sec=1000;
 void setup() {
-pinMode(12,OUTPUT);
+pinMode(l1,OUTPUT);
+
 }
 
 void loop() {
- digitalWrite(12,HIGH);
- delay(100);
- digitalWrite(12,LOW);
- delay(100);
+ digitalWrite(l1,HIGH);
+ delay(sec);
+ digitalWrite(l1,LOW);
+ delay(sec);
+/* digitalWrite(l1,HIGH);
+ delay(sec);
+ digitalWrite(l2,HIGH);
+ delay(sec);
+ digitalWrite(l2,LOW);
+ delay(sec);
+ digitalWrite(l3,HIGH);
+ delay(sec);
+ digitalWrite(l3,LOW);*/
 }
